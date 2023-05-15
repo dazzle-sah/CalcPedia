@@ -1,5 +1,6 @@
 body{
     background-image: url(./imgs/f1\ 1.png);
+    margin: 0px;
 }
 
 .top,.foot{
@@ -10,7 +11,6 @@ body{
 }
 p{
     margin: 0px;
-
 }
 .crd{
     background-color: black;
@@ -26,6 +26,7 @@ p{
     /* padding-left: 5%; */
 }
 .top ul{
+    margin: 0px;
     padding-top: 0.35%;
     color: #fff;
     opacity: 1.5;
@@ -61,7 +62,7 @@ nav{
 nav ul{
     display: flex;
     flex-direction: row;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 0px;
 }
 nav li{
@@ -85,4 +86,7 @@ nav li a{
     text-align: center;
     padding-top: 0.35%;
 
+}
+.crd ul li a{
+    color: #fff;
 }

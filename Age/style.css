@@ -26,6 +26,9 @@ p{
     text-align: left;
     /* padding-left: 5%; */
 }
+.left{
+    text-align: right;
+}
 .top ul{
     margin: 0px;
     padding-top: 0.35%;
@@ -56,7 +59,7 @@ nav{
 nav ul{
     display: flex;
     flex-direction: row;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 0px;
 }
 nav li{

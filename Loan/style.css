@@ -59,7 +59,7 @@ nav{
 nav ul{
     display: flex;
     flex-direction: row;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 0px;
 }
 nav li{

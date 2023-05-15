@@ -62,7 +62,7 @@ nav{
 nav ul{
     display: flex;
     flex-direction: row;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 0px;
 }
 nav li{
@@ -93,9 +93,12 @@ nav li a{
     color: #fff;
     max-width: 85%;
     margin-left: 10%;
-    justify-content: ;
+    /* justify-content: ; */
 }
 .crd span a{
     margin-left: 33%;
     color: #fff;
+}
+.left{
+    text-align: right;
 }

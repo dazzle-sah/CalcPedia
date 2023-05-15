@@ -3,10 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>BMI Calculator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="../imgs/CP.png">
+
     </head>
     <body>
         <div class="top">
@@ -51,28 +53,38 @@
         </div>
         <nav>
             <a href="index.html">
-                <img src="../imgs/CP.png" alt="" height="30px" width="50px">
+                <img src="./imgs/CP.png" alt="" height="30px" width="50px">
             </a>
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="../About/index.html">About</a>
                 </li>
                 <li>
-                    <a href="">Calculators</a>
-                </li>
-                <!-- <li>Converters</li> -->
-                <li>
-                    <a href="">Contact Us</a>
+                    <a href="../Contact Us/index.html">Contact Us</a>
                 </li>
             </ul>
         </nav>
-        
+        <div class="hero">
+            <img src="../imgs/Age Calculator.png" alt="" height="80px">
+            <div class="crd">
+        <div class="container">
+            <!-- <h1 class="heading">Body Mass Index (BMI) Calculator</h1> -->
+            Your Height (cm):
+            <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
+            Your Weight (kg):
+            <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
+            <button class="btn" id="btn">Compute BMI</button>
+            <input disabled type="text" class="input" id="bmi-result">
+            <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+        </div>
+    </div>
+</div>  
         <div class="foot">
             <p>©All rights are reserved by Drishti</p>
         </div>
-        <script src="age.js" async defer></script>
+        <script src="bmi.js" async defer></script>
     </body>
 </html>
