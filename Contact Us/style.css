@@ -1,0 +1,120 @@
+body{
+    background-image: url(../imgs/f1\ 1.png);
+    margin: 0px;
+}
+
+.top,.foot{
+    height:30px;
+    background-color: black;
+    font-size: 15px;
+    color: #fff;
+}
+p{
+    margin: 0px;
+}
+.crd{
+    background-color: black;
+    opacity: 0.5;
+    width: 40%;
+    height: 370px;
+    border-radius: 50px;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    margin-top: 3%;
+    margin-left: 30%;
+    text-align: left;
+    /* padding-left: 5%; */
+}
+.top ul{
+    padding-top: 0.35%;
+    color: #fff;
+    opacity: 1.5;
+    /* font-size: 15px; */
+    display: flex;
+    flex-direction:row;
+    margin: 0px;
+}
+.social{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    margin-left: 75%;
+}
+.social li{
+    margin-left: 15%;
+}
+ul{
+    list-style: none;
+}
+.crd li{
+    color: #fff;
+    font-size:35px;
+    margin-top: 3%;
+    margin-left: 20%;
+    opacity: 1;
+}
+nav{
+    margin-top: 1.5%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+    margin-top: 0px;
+}
+nav li{
+    margin-left: 1%;
+    text-align: center;
+    width: 140px;
+    font-size: 25px;
+    margin-top: 0px;
+
+}
+nav li a{
+    color: #fff;
+    max-width: 100%;
+}
+.hero{
+    margin-top:5%;
+    text-align: center;
+    /* margin-left: 30%; */
+}
+.foot p{
+    text-align: center;
+    padding-top: 0.35%;
+
+}
+.crd p{
+    margin-top: 7%;
+    font-size: 25px;
+    color: #fff;
+    max-width: 80%;
+    margin-left: 10%;
+    /* justify-content: ; */
+}
+.crd span a{
+    margin-left: 33%;
+    color: #fff;
+}
+.left{
+    text-align: right;
+}
+.soc img{
+    margin-top: 10%;
+    width: 64px;
+height: 66px;
+left: 618px;
+top: 486px;
+background: #D9D9D9;
+border-radius: 20px;
+margin-left: 5%;
+}
+.soc{
+    margin-left: 25%;
+}
+p a{
+    color: #fff;
+}
