@@ -1,5 +1,7 @@
 body{
     background-image: url(../imgs/f1\ 1.png);
+    margin: 0px;
+    padding: 0px;
 }
 
 .top,.foot{
@@ -10,7 +12,6 @@ body{
 }
 p{
     margin: 0px;
-
 }
 .crd{
     background-color: black;
@@ -18,7 +19,7 @@ p{
     width: 40%;
     height: 300px;
     border-radius: 50px;
-    margin-bottom: 5%;
+    margin-bottom: 5.45%;
     padding-top: 3%;
     margin-top: 3%;
     margin-left: 30%;
@@ -26,6 +27,7 @@ p{
     /* padding-left: 5%; */
 }
 .top ul{
+    margin: 0px;
     padding-top: 0.35%;
     color: #fff;
     opacity: 1.5;
